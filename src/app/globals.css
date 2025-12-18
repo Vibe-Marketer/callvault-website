@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F7F7F9;
+  --foreground: #111111;
+  --primary: #FF3D00;
+  --primary-foreground: #FFFFFF;
+  --secondary: #E2E4EA;
+  --secondary-foreground: #111111;
+  --muted: #F1F2F6;
+  --muted-foreground: #555A63;
+  --border: #D2D5DE;
+  --radius: 0.75rem;
+  --grad-lava-main: linear-gradient(135deg, #FFEB00 0%, #FF8800 35%, #FF3D00 100%);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  .container {
+    @apply w-full mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+
+  .lava-text {
+    background: var(--grad-lava-main);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .lava-bg {
+    background: var(--grad-lava-main);
+  }
+
+  .btn {
+    @apply inline-flex items-center justify-center rounded-full font-medium transition-all;
+  }
+
+  .btn-primary {
+    background: var(--grad-lava-main);
+    @apply text-white shadow-lg shadow-orange-500/25 hover:scale-105;
+  }
+
+  .btn-outline {
+    @apply border border-orange-200 text-orange-600 hover:bg-orange-50;
+  }
+
+  .btn-white {
+    @apply bg-white text-orange-600 hover:bg-orange-50 shadow-xl;
+  }
+
+  .btn-lg {
+    @apply h-14 px-8 text-lg;
+  }
+
+  .btn-md {
+    @apply h-10 px-6 text-sm;
+  }
+
+  .section {
+    @apply py-16 md:py-24;
+  }
+
+  .section-vault {
+    background: linear-gradient(180deg, #F7F7F9 0%, #FFFFFF 100%);
+  }
+
+  .section-lava {
+    background: var(--grad-lava-main);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.animation-delay-100 { animation-delay: 100ms; }
+.animation-delay-200 { animation-delay: 200ms; }
+.animation-delay-300 { animation-delay: 300ms; }
+.animation-delay-400 { animation-delay: 400ms; }
+.animation-delay-500 { animation-delay: 500ms; }
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
