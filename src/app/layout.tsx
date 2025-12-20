@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -33,6 +34,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex flex-col bg-background`}>
         {children}
+        <Script
+          src="https://plausible.io/js/pa-bRUjMEzJqZJc0A60MquWq.js"
+          strategy="afterInteractive"
+        />
+        <Script id="plausible-init" strategy="afterInteractive">
+          {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`}
+        </Script>
       </body>
     </html>
   );
