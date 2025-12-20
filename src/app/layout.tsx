@@ -34,13 +34,12 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} min-h-screen flex flex-col bg-background`}>
         {children}
-        <Script
-          src="https://plausible.io/js/pa-bRUjMEzJqZJc0A60MquWq.js"
-          strategy="afterInteractive"
+        <script defer data-domain="callvaultai.com" src="https://plausible.io/js/pa-bRUjMEzJqZJc0A60MquWq.js"></script>
+        <script
+          dangerouslySetInnerHTML={{
+             __html: `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`
+          }}
         />
-        <Script id="plausible-init" strategy="afterInteractive">
-          {`window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`}
-        </Script>
       </body>
     </html>
   );
