@@ -10,12 +10,31 @@ const faqs = [
   { question: 'Can I import past calls?', answer: 'Yes! When you connect Fathom, we can automatically sync your entire history so you can start mining insights immediately.' },
 ];
 
+// FAQPage schema for AEO
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
+
 export default function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <section id="faq" className="section bg-white">
-      <div className="container max-w-3xl">
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <section id="faq" className="section bg-white">
+        <div className="container max-w-3xl">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-6">Frequently Asked Questions</h2>
         </div>
@@ -43,7 +62,8 @@ export default function FAQ() {
             </div>
           ))}
         </div>
-      </div>
-    </section>
+        </div>
+      </section>
+    </>
   );
 }

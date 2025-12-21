@@ -26,6 +26,45 @@ export const metadata: Metadata = {
   },
 };
 
+// Global Schema.org structured data for entity recognition
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': 'https://callvaultai.com/#organization',
+  name: 'CallVault',
+  legalName: '7x Systems LLC',
+  url: 'https://callvaultai.com',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://callvaultai.com/logo-full-transparent.png',
+    width: 600,
+    height: 160,
+  },
+  description: 'AI-powered call vault that captures, organizes, and makes every conversation searchable for coaches, consultants, and sales teams.',
+  foundingDate: '2025',
+  sameAs: [
+    'https://x.com/callvaultai',
+    'https://www.linkedin.com/company/callvaultai',
+    'https://www.facebook.com/CallVaultAI/',
+    'https://www.instagram.com/callvaultai',
+  ],
+  contactPoint: {
+    '@type': 'ContactPoint',
+    email: 'hello@callvaultai.com',
+    contactType: 'customer service',
+  },
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': 'https://callvaultai.com/#website',
+  url: 'https://callvaultai.com',
+  name: 'CallVault',
+  publisher: { '@id': 'https://callvaultai.com/#organization' },
+  inLanguage: 'en-US',
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -34,6 +73,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* Global Schema.org for Entity Recognition */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
         <PlausibleProvider
           domain="callvaultai.com"
           customDomain="https://plausible.io"

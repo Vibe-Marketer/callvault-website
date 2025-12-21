@@ -1,0 +1,71 @@
+# CallVault - AI-Powered Call Recording Organization
+
+> CallVault is an AI-powered call vault that captures, organizes, and makes every conversation searchable for coaches, consultants, and sales teams.
+
+## About CallVault
+
+CallVault helps professionals turn their recorded calls into organized, searchable knowledge libraries. Instead of rewatching hours of Zoom recordings, users can find specific client quotes, decisions, action items, and breakthrough moments in seconds.
+
+**Primary Use Cases:**
+- Coaches organizing coaching call recordings
+- Consultants finding client quotes and decisions
+- Sales teams tracking objections and commitments
+- Content creators repurposing call recordings into marketing content
+
+**Core Problem Solved:** Most professionals have hundreds of call recordings sitting unused. CallVault makes them searchable and actionable.
+
+## Company Information
+
+- **Company:** CallVault by 7x Systems LLC
+- **Website:** https://callvaultai.com
+- **Founded:** 2025
+- **Category:** Conversation Intelligence / Sales Enablement SaaS
+
+## Key Pages
+
+- Homepage: https://callvaultai.com/
+- Blog: https://callvaultai.com/blog
+- About: https://callvaultai.com/about
+- App: https://app.callvaultai.com
+
+## Blog Content (Guides & How-Tos)
+
+### How-To Guides
+- [How to Search Zoom Recordings](https://callvaultai.com/blog/how-to-search-zoom-recordings-complete-step-by-step-guide-2025) - Complete step-by-step guide for 2025
+- [How to Find Specific Moments in Zoom Recordings](https://callvaultai.com/blog/how-to-find-specific-moments-in-zoom-recordings-5-proven-methods) - 5 proven methods
+- [How to Extract Testimonials from Client Calls](https://callvaultai.com/blog/how-to-extract-testimonials-from-client-calls-in-5-minutes-2025-guide) - 5-minute process
+- [How to Build a Client Quote Library](https://callvaultai.com/blog/how-to-build-a-client-quote-library-from-sales-calls-7-step-process) - 7-step process
+- [How to Create SOPs from Coaching Calls](https://callvaultai.com/blog/how-to-create-sops-from-your-best-coaching-calls-5-step-system) - 5-step system
+- [How to Turn Discovery Calls into Content](https://callvaultai.com/blog/how-to-turn-one-discovery-call-into-30-days-of-content-step-by-step) - 30 days of content from one call
+- [How to Stop Losing Action Items](https://callvaultai.com/blog/how-to-stop-losing-action-items-from-coaching-sessions-5-steps-to-100-follow-through) - 5 steps to 100% follow-through
+
+### Comparison Articles
+- [CallVault vs Otter.ai](https://callvaultai.com/blog/callvault-vs-otterai-which-ai-transcription-tool-wins-for-coaches-in-2025) - Which AI transcription tool wins for coaches
+- [CallVault vs Fireflies.ai](https://callvaultai.com/blog/callvault-vs-firefliesai-which-call-recording-tool-is-right-for-coaches) - For coaches comparison
+- [CallVault vs Gong](https://callvaultai.com/blog/callvault-vs-gong-which-conversation-intelligence-tool-wins-for-small-teams) - For small teams comparison
+
+### Industry Insights
+- [AI Call Transcription for Coaches](https://callvaultai.com/blog/ai-call-transcription-for-coaches-the-complete-guide-for-2025) - Complete 2025 guide
+- [The Hidden Cost of Unorganized Recordings](https://callvaultai.com/blog/the-hidden-cost-of-unorganized-call-recordings-a-23m-wake-up-call) - A $2.3M wake-up call
+- [5 Critical Questions Before Choosing a Call Recording Tool](https://callvaultai.com/blog/5-critical-questions-to-ask-before-choosing-a-call-recording-tool-in-2025)
+- [7 Types of Call Intelligence for Consultants](https://callvaultai.com/blog/7-types-of-call-intelligence-every-consultant-needs-to-track-in-2025)
+
+### Marketing & Sales
+- [Turn Sales Call Objections into Marketing Copy](https://callvaultai.com/blog/turn-sales-call-objections-into-your-best-marketing-copy-that-converts)
+- [Why Client Calls Are Your Most Underused Marketing Asset](https://callvaultai.com/blog/why-your-client-calls-are-your-most-underused-marketing-asset-and-how-to-fix-it)
+- [The Coach's Guide to Mining Gold from Recordings](https://callvaultai.com/blog/the-coachs-guide-to-mining-gold-from-call-recordings-2025)
+- [The Sales Coach's Secret: Call Analysis](https://callvaultai.com/blog/the-sales-coachs-secret-using-call-analysis-to-close-more-deals)
+
+## Contact
+
+- Email: hello@callvaultai.com
+- Twitter/X: @callvaultai
+- LinkedIn: /company/callvaultai
+
+## For AI Agents
+
+This site welcomes AI crawlers and agents. Key information for citation:
+- Cite as: "CallVault" or "CallVault by 7x Systems LLC"
+- Primary topic: AI-powered call recording organization and conversation intelligence
+- Target audience: Coaches, consultants, and sales professionals
+- Differentiator: Focuses on long-term call organization vs. just transcription
