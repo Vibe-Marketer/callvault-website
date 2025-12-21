@@ -1,7 +1,8 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import './globals.css';
 import Script from 'next/script';
+import './globals.css';
+import PlausibleProvider from 'next-plausible';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -32,14 +33,21 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <PlausibleProvider
+          domain="callvaultai.com"
+          customDomain="https://plausible.io"
+          selfHosted={false}
+        />
+        {/* Termly Consent Management */}
+        <Script
+          id="termly-consent"
+          strategy="beforeInteractive"
+          src="https://app.termly.io/resource-blocker/3f67edc8-fd4d-4d1f-bd41-4dc048b22b0f?autoBlock=on"
+        />
+      </head>
       <body className={`${inter.className} min-h-screen flex flex-col bg-background`}>
         {children}
-        <script defer data-domain="callvaultai.com" src="https://plausible.io/js/pa-bRUjMEzJqZJc0A60MquWq.js"></script>
-        <script
-          dangerouslySetInnerHTML={{
-             __html: `window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()`
-          }}
-        />
       </body>
     </html>
   );

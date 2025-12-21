@@ -53,9 +53,20 @@ export default function Footer() {
             <div>
               <h4 className="font-bold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/privacy" className="hover:text-white transition-colors">Privacy Policy</a></li>
-                <li><a href="/terms" className="hover:text-white transition-colors">Terms of Service</a></li>
-                <li><a href="mailto:hello@callvaultai.com" className="hover:text-white transition-colors">Contact</a></li>
+                <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                <li><Link href="/cookies" className="hover:text-white transition-colors">Cookie Policy</Link></li>
+                <li><Link href="/disclaimer" className="hover:text-white transition-colors">Disclaimer</Link></li>
+                <li><Link href="/acceptable-use" className="hover:text-white transition-colors">Acceptable Use</Link></li>
+                <li>
+                  <a
+                    href="#"
+                    className="termly-display-preferences hover:text-white transition-colors"
+                  >
+                    Consent Preferences
+                  </a>
+                </li>
+                <li><a href="mailto:support@callvaultai.com" className="hover:text-white transition-colors">Contact</a></li>
               </ul>
             </div>
           </div>
