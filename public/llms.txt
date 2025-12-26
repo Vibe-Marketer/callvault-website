@@ -50,6 +50,24 @@ CallVault helps professionals turn their recorded calls into organized, searchab
 - [5 Critical Questions Before Choosing a Call Recording Tool](https://callvaultai.com/blog/5-critical-questions-to-ask-before-choosing-a-call-recording-tool-in-2025)
 - [7 Types of Call Intelligence for Consultants](https://callvaultai.com/blog/7-types-of-call-intelligence-every-consultant-needs-to-track-in-2025)
 
+### Coaching & Client Management
+- [How Coaches Use AI to Find Client Breakthroughs](https://callvaultai.com/blog/how-coaches-use-ai-to-find-client-breakthroughs-in-old-calls) - AI-powered breakthrough discovery
+- [Building a Call Vault That Gets Used](https://callvaultai.com/blog/building-a-call-vault-that-actually-gets-used) - Complete implementation guide
+- [Create a Content Library from Client Calls](https://callvaultai.com/blog/create-a-content-library-from-your-existing-client-calls) - Content repurposing system
+- [Track Client Progress Across Sessions](https://callvaultai.com/blog/track-client-progress-across-multiple-coaching-sessions) - AI-powered progress tracking
+- [Onboard Team Members with Real Call Examples](https://callvaultai.com/blog/onboard-new-team-members-using-real-call-examples) - Training from real calls
+- [The PROFITS Framework for Call Mining](https://callvaultai.com/blog/the-profits-framework-mining-gold-from-every-client-call) - 7-step framework
+
+### Call Organization
+- [What to Do with 500 Zoom Recordings](https://callvaultai.com/blog/what-to-do-when-you-have-500-zoom-recordings-you-never-watch) - Recording management guide
+- [Why Note-Taking Apps Fail Call-Heavy Businesses](https://callvaultai.com/blog/why-note-taking-apps-fail-for-call-heavy-businesses) - The case for specialized tools
+
+### Tool Comparisons
+- [CallVault AI vs Fathom](https://callvaultai.com/blog/callvault-ai-vs-fathom-when-you-need-more-than-a-meeting-assistant) - More than a meeting assistant
+- [Why Coaches Move Beyond Otter.ai](https://callvaultai.com/blog/why-coaches-are-moving-beyond-otterai) - Beyond basic transcription
+- [CallVault AI vs tl;dv](https://callvaultai.com/blog/callvault-ai-vs-tldv-which-meeting-recorder-wins) - Meeting recorder comparison
+- [CallVault AI vs Grain](https://callvaultai.com/blog/callvault-ai-vs-grain-video-highlights-comparison) - Video highlights comparison
+
 ### Marketing & Sales
 - [Turn Sales Call Objections into Marketing Copy](https://callvaultai.com/blog/turn-sales-call-objections-into-your-best-marketing-copy-that-converts)
 - [Why Client Calls Are Your Most Underused Marketing Asset](https://callvaultai.com/blog/why-your-client-calls-are-your-most-underused-marketing-asset-and-how-to-fix-it)
