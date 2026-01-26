@@ -93,6 +93,23 @@ export default function RootLayout({
           strategy="beforeInteractive"
           src="https://app.termly.io/resource-blocker/3f67edc8-fd4d-4d1f-bd41-4dc048b22b0f?autoBlock=on"
         />
+        {/* Google Analytics */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-PV0S3WZCWJ"
+          strategy="beforeInteractive"
+        />
+        <Script
+          id="google-analytics"
+          strategy="beforeInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-PV0S3WZCWJ');
+            `,
+          }}
+        />
         {/* Microsoft Clarity */}
         <Script
           id="microsoft-clarity"
